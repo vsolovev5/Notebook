@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Threading.Tasks;
 
 namespace API.Models
 {
-    public class ContactType : BaseEntity
+    public class ContactType
     {
         public string Title { get; set; }
     }
-
 }

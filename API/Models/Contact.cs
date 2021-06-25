@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Threading.Tasks;
 
 namespace API.Models
 {
-    public class Contact : BaseEntity
+    public class Contact
     {
         public string Value { get; set; }
 
@@ -14,6 +14,6 @@ namespace API.Models
 
         public int? ContactTypeId { get; set; }
         public ContactType ContactType { get; set; }
-    }
 
+    }
 }
