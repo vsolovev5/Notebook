@@ -5,11 +5,8 @@ using System.Threading.Tasks;
 
 namespace API.Models
 {
-    public class ContactType
+    public class ContactType : BaseEntity
     {
-        public Guid Id { get; set; }
-
         public string Title { get; set; }
-        public List<Contact> Contacts { get; set; }
     }
 }

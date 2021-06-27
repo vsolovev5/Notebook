@@ -5,11 +5,12 @@ using System.Threading.Tasks;
 
 namespace API.Models
 {
-    public class ContactType
+    public class Person : BaseEntity
     {
-        public Guid Id { get; set; }
-
-        public string Title { get; set; }
+        public string Firstname { get; set; }
+        public string Secondname { get; set; }
+        public DateTime BirthDay { get; set; }
         public List<Contact> Contacts { get; set; }
+
     }
 }

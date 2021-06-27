@@ -7,10 +7,11 @@ namespace API.Models
 {
     public class Person
     {
+        public Guid Id { get; set; }
+
         public string Firstname { get; set; }
         public string Secondname { get; set; }
         public DateTime BirthDay { get; set; }
         public List<Contact> Contacts { get; set; }
-
     }
 }
